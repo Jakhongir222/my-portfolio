@@ -1,78 +1,21 @@
-.bg-gray-900 {
+.footer-container {
     background-color: #1a202c;
-  }
-  
-  .px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  
-  .pt-16 {
-    padding-top: 4rem;
-  }
-  
-  .mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .sm\\:max-w-xl {
-    max-width: 36rem;
-  }
-  
-  .md\\:max-w-full {
-    max-width: 100%;
-  }
-  
-  .lg\\:max-w-screen-xl {
-    max-width: 1280px;
-  }
-  
-  .md\\:px-24 {
-    padding-left: 6rem;
-    padding-right: 6rem;
-  }
-  
-  .lg\\:px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-  
-  .flex {
     display: flex;
-  }
-  
-  .flex-col {
-    flex-direction: column;
-  }
-  
-  .justify-center {
     justify-content: center;
+    align-items: center;
+    height: 100px;
   }
   
-  .pt-5 {
-    padding-top: 1.25rem;
+  .footer-text {
+    color: #e2e8f0;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+    width: max-content;
+    margin: 0 20px;
   }
   
-  .pb-10 {
-    padding-bottom: 2.5rem;
-  }
-  
-  .border-t {
-    border-top-width: 1px;
-  }
-  
-  .border-gray-800 {
-    border-color: #2d3748;
-  }
-  
-  .text-sm {
-    font-size: 0.875rem;
-  }
-  
-  .text-gray-500 {
-    color: #dadde3;
-    border-top:  2px solid #dadde3;
-    padding-top: 50px;
-  }
   
