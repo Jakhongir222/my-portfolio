@@ -40,7 +40,7 @@
     }
   }
   
-  button {
+  .learn-more {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
@@ -51,9 +51,10 @@
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.5s ease-out;
+    text-decoration: none;
   }
   
-  button:hover {
+  .learn-more:hover {
     background-color: #1B4C9F;
   }
   

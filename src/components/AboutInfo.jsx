@@ -4,7 +4,7 @@ import '../styles/AboutInfo.css';
 
 export const AboutInfo = () => {
   return (
-    <div className="about-info-container">
+    <div id="about-me" className="about-info-container">
       <h1 className="about-title">About Me</h1>
       <div className="about-content">
         <img src={info} alt="about page" className="about-image" height={100}/>
