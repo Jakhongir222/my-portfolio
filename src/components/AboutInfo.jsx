@@ -18,7 +18,7 @@ export const AboutInfo = () => {
         <p>When it comes to technology, I'm comfortable working with a variety of tools and languages, including front-end frameworks, 
         as well as back-end technologies. Whether I'm building RESTful APIs or designing beautiful, responsive user interfaces,
         I take pride in delivering work that meets the highest standards of quality and performance. If you're looking for a highly skilled,
-        adaptable, and all-around awesome full-stack developer to join your team, I'm your guy. Check out my skills and projects below.</p>
+        adaptable, and all-around awesome full-stack developer to join your team, I'm your guyCheck out my skills and projects below.</p>
         </div>
       </div>
     </div>
