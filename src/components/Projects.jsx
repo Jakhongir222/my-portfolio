@@ -9,7 +9,7 @@ import tales from '../images/tales.png';
 
 export const Projects = () => {
   return (
-    <div className='project-container'>
+    <div id="projects" className='project-container'>
       <h1>Projects</h1>
         <div className='project-card'>
             <img src={shoes} alt="shoes" height={260} />

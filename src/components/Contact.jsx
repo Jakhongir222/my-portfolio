@@ -6,7 +6,7 @@ import '../styles/Contact.css';
 
 export const Contact = () => {
   return (
-    <div className="contact-container">
+    <div id="contacts" className="contact-container">
       <h1 className="contact-header">Contact Me</h1>
       <div className="contact-cards">
         <a href='mailto:jakhongir.burkhanov@appliedtechnology.se' className="contact-card">

@@ -7,7 +7,7 @@ import '../styles/Skills.css';
 
 export const Skills = () => {
   return (
-    <div className="container">
+    <div id="skills" className="container">
       <h1 className="title">My Skills</h1>
       <div className="column">
         <img src={frontend} alt='frontend' className="section-icon"/>
