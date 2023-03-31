@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# My Portfolio
+Welcome to my portfolio! I am a Full Stack Java Developer passionate about OOP and TDD.    
+Check out my portfolio here [`Portfolio`](https://portfolio-jakhongir222.vercel.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Projects
+Here are some of my recent projects that I've worked on:
+- [`Backend for twitter`](https://github.com/Jakhongir222/TwitterAPI.git)(**repisitory**: [twitter-api](https://github.com/Jakhongir222/TwitterAPI.git))
+- [`Step up shoes`](https://e-commerce-app-frontend-kr7m.vercel.app/) (**repository**: [e-commerce-app](https://github.com/Jakhongir222/e-commerce-app-frontend.git))
+- [`Jak's Puppy Rescue`](https://puppies-api-frontend-git-main-jakhongir222.vercel.app/) (**repository**: [puppies-api](https://github.com/Jakhongir222/puppies-api-frontend.git))
+- [`ShapeUp fitness app`](https://fitness-app-git-main-jakhongir222.vercel.app/) (**repository**: [fitness-app](https://github.com/Jakhongir222/fitness-app.git))
+- [`Travel Blog`](https://full-stack-responsive-blog-jakhongir222.vercel.app/) (**repository**: [travel-blog](https://github.com/Jakhongir222/travel-blog-frontend.git))
+- [`Fly with me`](https://flight-finder-frontend-jakhongir222.vercel.app/) (**repository**: [flight-finder-frontend](https://github.com/Jakhongir222/flight-finder-frontend.git))
+- [`Tiny Tales`](https://tiny-blog.vercel.app/) (**repository**: [tiny-blog](https://github.com/Jakhongir222/tiny-blog.git))
+- [`Salt employee card`](https://add-on-app.vercel.app/) (**repository**: [add-on-app](https://github.com/Jakhongir222/add-on-app.git))
 
-## Available Scripts
+## Skills
+Here are some of my technical skills:
 
-In the project directory, you can run:
+| Frontend | Backend | Tools |
+| --- | --- | --- |
+| JavaScript | Java | Git, Github |
+| HTML | Maven | Postman |
+| CSS | Spring Boot | E2E |
+| React | Hibernate | Mocha |
+| Next | JPA | Figma |
+| Typescript | JUnit | Vercel |
+| Angular | MySQL | Railway |
+| OAuth2 | MongoDB | Docker |
+| APIs | Spring Security | Microsoft Azure |
+| TailwindCSS | RESTful APIs | Vercel |
 
-### `npm start`
+## Contacts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg' alt='email' height='40'>](mailto:jakhongir.burkhanov@appliedtechnology.se)
+&nbsp;&nbsp;&nbsp;&nbsp;[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/jakburkhanov/)&nbsp;&nbsp;&nbsp;&nbsp;[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/telegram.svg' alt='website' height='40'>](https://t.me/jahongir22)&nbsp;&nbsp;&nbsp;&nbsp;
