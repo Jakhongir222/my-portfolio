@@ -1,60 +1,77 @@
 .about-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    background-color: #F4F3F3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #F4F3F3;
+}
+
+.left-container {
+  width: 50%;
+  text-align: center;
+  animation: fadeInLeft 1s ease-out;
+}
+
+.right-container {
+  width: 50%;
+  text-align: center;
+  animation: fadeInRight 1s ease-out;
+}
+
+.learn-more {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2E7BCF;
+  color: #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+  text-decoration: none;
+}
+
+.learn-more:hover {
+  background-color: #1B4C9F;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding: 20px;
   }
-  
+
   .left-container {
-    width: 50%;
+    width: 100%;
     text-align: center;
-    animation: fadeInLeft 1s ease-out;
+    animation: fadeInUp 1s ease-out;
+    margin-bottom: 20px;
   }
-  
+
   .right-container {
-    width: 50%;
-    text-align: center;
-    animation: fadeInRight 1s ease-out;
+    display: none;
   }
-  
-  @keyframes fadeInLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(-50px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  @keyframes fadeInRight {
-    0% {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
+
   .learn-more {
-    margin-top: 20px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #2E7BCF;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.5s ease-out;
-    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
   }
-  
-  .learn-more:hover {
-    background-color: #1B4C9F;
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
-  
+}
+
+@media only screen and (max-width: 480px) {
+  .learn-more {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}

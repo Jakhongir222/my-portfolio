@@ -1,167 +1,174 @@
 body {
-    background-color: #1a202c;
-  }
-  
-  .project-container h1 {
-    text-align: center;
-    color: white;
-    margin-top: 50px;
-  }
-  
-  .project-card {
-    background-color: white;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: inline-block;
-    width: calc(33.33% - 20px);
-    vertical-align: top;
-    height: 600px;
-    margin-bottom: 40px;
-    text-align: left;
-  }
-  
-  .project-card h1 {
-    font-size: 28px;
-    font-weight: bold;
-    color: black;
-  }
-  
-  .project-card h3 {
-    font-size: 18px;
-    font-weight: bold;
-    color: #444;
-  }
-  
-  .project-card p {
-    font-size: 16px;
-    color: #777;
-    margin-top: 20px;
-  }
-  
-  .live-button,
-  .repo-button {
-    display: inline-block;
-    padding: 12px 24px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    margin-top: 20px;
-    margin-right: 10px;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  }
-  
-  .live-button {
-    background-color: #0077FF;
-    color: white;
-  }
-  
-  .repo-button {
-    background-color: white;
-    color: #0077FF;
-    border: 2px solid #0077FF;
-  }
-  
-  .live-button:hover,
-  .live-button:hover .live-text {
-    background-color: white;
-    color: #0077FF;
-    cursor: pointer;
-  }
-  .live-button:hover .live-bg {
-    background-color: #0077FF;
-  }
-  .repo-button:hover,
-  .repo-button:hover .repo-text {
-    background-color: #0077FF;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .live-button:active,
-  .live-button:active .live-text {
-    background-color: #0077FF;
-    color: white;
-  }
-  .repo-button:active,
-  .repo-button:active .repo-text {
-    background-color: white;
-    color: #0077FF;
-  }
-  
-  a.live-button,
-  a.repo-button {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  .live-container,
-  .repo-container {
-    display: inline-block;
-    position: relative;
-  }
-  
-  .live-text,
-  .repo-text {
-    position: relative;
-    z-index: 1;
-  }
-  
-  .live-bg,
-  .repo-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    border-radius: 5px;
-  }
-  
-  .live-bg {
-    background-color: #0077FF;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .repo-bg {
-    background-color: white;
-    border: 2px solid #0077FF;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .live-container:hover .live-bg {
-    background-color: white
-  }  
+  background-color: #1a202c;
+}
+
+.project-container h1 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  vertical-align: top;
+  height: 600px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.project-card h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+
+.project-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: #777;
+  margin-top: 20px;
+}
+
+.live-button,
+.repo-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.live-button {
+  background-color: #0077FF;
+  color: white;
+}
+
+.repo-button {
+  background-color: white;
+  color: #0077FF;
+  border: 2px solid #0077FF;
+}
+
+.live-button:hover,
+.live-button:hover .live-text {
+  background-color: white;
+  color: #0077FF;
+  cursor: pointer;
+}
+.live-button:hover .live-bg {
+  background-color: #0077FF;
+}
+.repo-button:hover,
+.repo-button:hover .repo-text {
+  background-color: #0077FF;
+  color: white;
+  cursor: pointer;
+}
+
+.live-button:active,
+.live-button:active .live-text {
+  background-color: #0077FF;
+  color: white;
+}
+.repo-button:active,
+.repo-button:active .repo-text {
+  background-color: white;
+  color: #0077FF;
+}
+
+a.live-button,
+a.repo-button {
+  color: inherit;
+  text-decoration: none;
+}
+
+.live-container,
+.repo-container {
+  display: inline-block;
+  position: relative;
+}
+
+.live-text,
+.repo-text {
+  position: relative;
+  z-index: 1;
+}
+
+.live-bg,
+.repo-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+}
+
+.live-bg {
+  background-color: #0077FF;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.repo-bg {
+  background-color: white;
+  border: 2px solid #0077FF;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.live-container:hover .live-bg {
+  background-color: white
+}  
+
 
 @media only screen and (max-width: 768px) {
 .project-card {
 margin: 10px;
+width: 100px;
 }
 
-.project-card:nth-child(4) {
-margin-top: 50px;
+.project-card:nth-child(2) {
+display: none;
+}
 }
 
-.project-card:nth-child(1),
-.project-card:nth-child(2),
-.project-card:nth-child(3) {
-display: inline-block;
-width: 100%;
+
+@media only screen and (max-width: 768px) {
+.project-card {
+  margin: 10px;
+  width: 350px;
 }
 
-.project-card:nth-child(4) {
-clear: both;
-width: 100%;
+.project-card:nth-child(2) {
+display: none;
 }
 
+.project-card > img {
+  height: 200px;
+}
+}
 
 @media only screen and (max-width: 480px) {
 .project-card {
 padding: 10px;
+height: auto;
 }
 
 .project-card h1 {
@@ -180,6 +187,5 @@ font-size: 14px;
 .repo-button {
 font-size: 16px;
 padding: 10px 20px;
-}
 }
 }

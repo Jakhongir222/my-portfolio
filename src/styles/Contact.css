@@ -1,61 +1,72 @@
 .contact-container {
-    background-color: #F4F3F3;
-    display: flex;
+  background-color: #F4F3F3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.contact-header {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.contact-card {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  transition: all 0.3s ease;
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-card:hover {
+  outline: 2px solid #0077FF;
+  outline-offset: 2px;
+}
+
+.contact-icon {
+  height: 64px;
+  margin-bottom: 16px;
+  width: 64px;
+}
+
+.contact-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.contact-text {
+  margin: 0;
+  color: #707070;
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .contact-cards {
     flex-direction: column;
     align-items: center;
-    padding: 40px 0;
-  }
-  
-  .contact-header {
-    margin-top: 0;
-    margin-bottom: 40px;
-    font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-  }
-  
-  .contact-cards {
-    display: flex;
-    justify-content: space-between;
-    max-width: 800px;
-    width: 100%;
-    text-decoration: none;
-    margin: 20px;
+    margin: 0;
   }
   
   .contact-card {
-    background-color: #FFFFFF;
-    border-radius: 8px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    width: 400px;
-    transition: all 0.3s ease;
-    margin: 20px;
-    text-decoration: none;
-    color: black;
+    max-width: 100%;
+    margin: 20px 0;
   }
-  
-  .contact-card:hover {
-    outline: 2px solid #0077FF;
-    outline-offset: 2px;
-  }
-  
-  .contact-icon {
-    height: 64px;
-    margin-bottom: 16px;
-    width: 64px;
-  }
-  
-  .contact-title {
-    margin: 0;
-    font-size: 24px;
-    font-weight: 500;
-  }
-  
-  .contact-text {
-    margin: 0;
-    color: #707070;
-    font-size: 16px;
-  }
-  
+}
