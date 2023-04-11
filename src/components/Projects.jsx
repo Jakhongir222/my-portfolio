@@ -50,7 +50,7 @@ export const Projects = () => {
               and displays them in frontend. The UI has an intereactive button that shows you which country you will be visiting next.
               The backend is deployed on Railway and the frontend is deployed on Vercel
             </p>
-            <a href="https://full-stack-responsive-blog-jakhongir222.vercel.app/" target="_blank" rel="noopener noreferrer" className="live-button">Live demo</a>
+            <a href="https://travel-blog-frontend-alpha.vercel.app/" target="_blank" rel="noopener noreferrer" className="live-button">Live demo</a>
             <a href="https://github.com/Jakhongir222/travel-blog-frontend.git" target="_blank" rel="noopener noreferrer" className="repo-button" >Source code</a>
         </div>
         <div className='project-card'>
